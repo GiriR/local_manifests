@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 	
+  
+  <remote  name="GiriR"
+           fetch="https://github.com/GiriR/" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="GiriR" revision="android-5.1"/>
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="GiriR" revision="android-5.1"/>
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="GiriR" revision="android-5.1"/>
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="GiriR" revision="android-5.1"/>
+  
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />   
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-12.1"/>
+
+</manifest>
