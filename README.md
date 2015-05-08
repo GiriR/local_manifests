@@ -1,2 +1,2 @@
 # local_manifests
-local manifest files
+local manifest file for building n7100 rom
